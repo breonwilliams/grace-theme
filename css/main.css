@@ -839,6 +839,10 @@ Navigation
 	text-shadow: none;
 }
 
+.nav>li.dropdown {
+	position: relative;
+}
+
 nav.affix {
 	top: 0;
 }
