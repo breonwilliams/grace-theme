@@ -1,1 +1,1 @@
-# grace-theme
+# everypraise-theme
