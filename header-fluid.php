@@ -166,6 +166,7 @@
 
 			<?php } ?>
 		</header>
+		<?php the_breadcrumb(); ?>
 
 			
 			<div class="fluid-wrap">

@@ -111,6 +111,7 @@
 				</nav>
 			</header>
 		<?php full_above_content_area(); ?>
+		<?php the_breadcrumb(); ?>
 			
 			<div class="container">
 			<div id="content" class="row row-with-vspace site-content pad-40">
