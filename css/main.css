@@ -2654,7 +2654,11 @@ img.rounded, .rounded {
 	padding-left: 0;
 	margin: 0;
 	list-style: none;
-	padding: 10px 0;
+	padding: 0;
+}
+
+.social-icon ul {
+	margin: 0;
 }
 
 .header-social .social-icon {
