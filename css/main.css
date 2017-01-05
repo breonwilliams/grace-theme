@@ -206,7 +206,7 @@ h6 {
 	margin-bottom: 10px;
 	font-weight: 700;
 	letter-spacing: 0.5px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #1d1d1d;
 }
 h1 {
@@ -349,7 +349,7 @@ hr {
 }
 
 .title-medium {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 23px;
 	margin: 0 0 20px;
 	line-height: 28px;
@@ -423,7 +423,7 @@ input[type="email"].wpcf7-form-control {
 	height: 50px;
 	padding: 15px;
 	font-size: 16px;
-	color: #596377;
+	color: #232323;
 	outline: 0;
 	-webkit-transition: border-color .2s ease;
 	transition: border-color .2s ease;
@@ -440,7 +440,7 @@ textarea.wpcf7-form-control{
 	border-radius: 3px;
 	padding: 15px;
 	font-size: 16px;
-	color: #596377;
+	color: #232323;
 	outline: 0;
 	-webkit-transition: border-color .2s ease;
 	transition: border-color .2s ease;
@@ -740,7 +740,7 @@ Header
 }
 
 #site-header {
-	background: #6c9967;
+	/*background: #6c9967;*/
 }
 
 .header-top-area{
@@ -773,7 +773,7 @@ Header
 	float: left;
 	position: relative;
 }
-.phone-number:after{content: "ÃƒÂ¯Ã¢â‚¬Å¡Ã¢â‚¬Â¢";
+.phone-number:after{content: "ÃƒÆ’Ã‚Â¯ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢";
 	display: inline-block;
 	float: left;
 	font-family: FontAwesome;
@@ -809,7 +809,6 @@ Header
 Navigation
 =========================== */
 .navbar {
-	border-bottom: solid 1px #E5E4E1;
 	border-radius: 0;
 	background: #6c9967;
 	z-index: 999;
@@ -825,6 +824,15 @@ Navigation
 	-moz-transform:translate3d(0, 0, 0);
 	-ms-transform:translate3d(0, 0, 0);
 	transform:translate3d(0, 0, 0);
+}
+
+.site-title-heading {
+	line-height: 90px;
+	margin: 0;
+}
+
+.site-title-heading a {
+	color: #fff!important;
 }
 
 .navbar-brand, .navbar-nav>li>a {
@@ -872,7 +880,7 @@ nav.affix {
 	}
 
 	.navbar-right {
-		margin-right: 25px;
+		margin-right: 55px;
 	}
 }
 
@@ -880,10 +888,16 @@ nav.affix {
 	.navbar-brand>img {
 		max-height: 50px!important;
 	}
+
+	.site-title-heading {
+		line-height: 50px;
+		margin: 0 0 0 15px;
+		font-size: 18px;
+	}
 }
 
 .navbar-brand>img {
-	max-height: 60px;
+	max-height: 90px;
 	width: auto;
 	display: block;
 }
@@ -891,12 +905,17 @@ nav.affix {
 
 .navbar-nav > li > a {
 	margin:0 1px;
-	line-height: 30px;
+	line-height: 60px;
 	color:#fff;
 	text-transform:uppercase;
-	font-size:14px;
+	font-size: 16px;
 	font-weight:700;
 	border: none;
+}
+
+.navbar-custom.nav-overlay.affix-top {
+	position: absolute;
+	background: transparent!important;
 }
 
 .navbar-custom .navbar-nav>li>a {
@@ -910,7 +929,7 @@ nav.affix {
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
-	background: #fff;
+	background: transparent;
 	border: none;
 }
 
@@ -1006,14 +1025,14 @@ nav.affix {
 	padding: 10px 20px;
 	clear: both;
 	font-weight: normal;
-	line-height: 1.42857143;
+	line-height: 2.428571!important;
 	color: #fff;
 	font-size: 14px;
 	text-transform:uppercase;
 	font-weight:700;
 	border:none;
 	white-space: nowrap;
-	background-color: #89ad85;
+	background-color: #232323;
 }
 
 .navbar-nav .dropdown-menu li > a:hover {
@@ -1032,7 +1051,7 @@ nav.affix {
 
 .navbar .navbar-toggle .icon-bar,
 .navbar .navbar-toggle:focus .icon-bar {
-	background-color:#1d1d1d;
+	background-color:#fff;
 }
 
 
@@ -1063,7 +1082,7 @@ nav.affix {
 	width: 100%;
 	padding: 0 15px;
 	font-size: 16px;
-	height: 60px;
+	height: 90px;
 }
 
 .navbar-form .input-group {
@@ -1126,7 +1145,8 @@ nav.affix {
 	}
 	.navbar-collapse form[role="search"] button {
 		padding: 20px 12px;
-		height: 60px;
+		height: 90px;
+		width: 70px;
 	}
 	.navbar-collapse form[role="search"] input {
 		padding: 20px 12px;

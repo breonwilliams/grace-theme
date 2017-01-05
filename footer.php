@@ -17,7 +17,6 @@
 							<?php get_sidebar('footerone'); ?>
 							<?php get_sidebar('footertwo'); ?>
 							<?php get_sidebar('footerthree'); ?>
-							<?php get_sidebar('footerfour'); ?>
 						</div>
 					</div>
 				</div>
