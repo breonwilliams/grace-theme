@@ -82,12 +82,12 @@ if (!function_exists('bootstrapBasicWidgetsInit')) {
 		));
 
 		register_sidebar(array(
-			'name'          => __('Header right', 'bootstrap-basic'),
-			'id'            => 'header-right',
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'name'          => __('Top Header Right', 'bootstrap-basic'),
+			'id'            => 'topheader-right',
+			'before_widget' => '<div id="%1$s" class="widget header-top-left %2$s">',
 			'after_widget'  => '</div>',
-			'before_title'  => '<h3 class="widget-title">',
-			'after_title'   => '</h3>',
+			'before_title'  => '',
+			'after_title'   => '',
 		));
 
 		register_sidebar(array(
